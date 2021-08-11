@@ -1,0 +1,76 @@
+{
+    "cats": [
+        { 
+            "id": 1, 
+            "name": "Bellowing Button", 
+            "description": "",
+            "hourlyRate": 12 
+        },
+        { 
+            "id": 2, 
+            "name": "Mitten Smirks", 
+            "description": "",
+            "hourlyRate": 8 
+        },
+        { 
+            "id": 3, 
+            "name": "Hoppy Groan", 
+            "description": "",
+            "hourlyRate": 5
+        },
+        { 
+            "id": 4, 
+            "name": "Smokey Stork", 
+            "description": "",
+            "hourlyRate": 21 
+        },
+        { 
+            "id": 5, 
+            "name": "Bigger Bump", 
+            "description": "",
+            "hourlyRate": 55
+        },
+        { 
+            "id": 6, 
+            "name": "Stretchy Zing", 
+            "description": "",
+            "hourlyRate": 35
+        },
+        { 
+            "id": 7, 
+            "name": "Go Ging", 
+            "description": "",
+            "hourlyRate": 87
+        },
+        { 
+            "id": 8, 
+            "name": "Hummer Bummer", 
+            "description": "",
+            "hourlyRate": 19
+        },
+        { 
+            "id": 9, 
+            "name": "Olive Oinker", 
+            "description": "",
+            "hourlyRate": 29
+        },
+        { 
+            "id": 10, 
+            "name": "Scratchy Skuttle", 
+            "description": "",
+            "hourlyRate": 11 
+        },
+        { 
+            "id": 11, 
+            "name": "Tinky Tanker", 
+            "description": "",
+            "hourlyRate": 47
+        },
+        { 
+            "id": 12, 
+            "name": "Vello Vinx", 
+            "description": "",
+            "hourlyRate": 38
+        }
+    ]
+  }
