@@ -1,7 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: 'cats',
+    loadChildren: () => import('./cats/cats.module').then(c => c.CatsModule)
+  },
+  {
+    path: 'cat/:id',
+    loadChildren: () => import('./cat/cat.module').then(c => c.CatModule)
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'cats'
+  },
+  {
+    path: '**c',
+    pathMatch: 'full',
+    redirectTo: 'cats'
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
