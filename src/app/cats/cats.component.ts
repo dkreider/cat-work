@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { orderBy } from 'lodash-es';
 import { Cat } from '../shared/models/cat';
 import { CatsService } from '../shared/services/cats.service';
 
@@ -21,4 +22,7 @@ export class CatsComponent implements OnInit {
     this.catsService.getCats().subscribe(cats => this.cats = cats);
   }
 
+  reorderCats(order: any) {
+    this.cats = orderBy(this.cats, ['hourlyRate'], [order]);
+  }
 }

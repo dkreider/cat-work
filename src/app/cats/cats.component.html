@@ -1,4 +1,13 @@
 <div class="row">
+    <div class="col-6">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Filter options</option>
+            <option (click)="reorderCats('asc')">Cheapest</option>
+            <option (click)="reorderCats('desc')">Most Expensive</option>
+        </select>
+    </div>
+</div>
+<div class="row">
     <div class="col-4" *ngFor="let cat of cats">
         <div class="card border-info" style="width: 95%;">
             <img src="assets/img/{{cat.id}}.jpg" class="card-img-top" width="200px" height="200px">
