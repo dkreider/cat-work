@@ -16,4 +16,8 @@ export class CatsService {
   getCats(): Observable<Cat[]> {
     return this.httpClient.get<Cat[]>(this.catsURL);
   }
+
+  getCat(id: any): Observable<Cat> {
+    return this.httpClient.get<Cat>(`${this.catsURL}/${id}`);
+  }
 }
