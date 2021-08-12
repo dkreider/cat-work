@@ -3,73 +3,55 @@
         { 
             "id": 1, 
             "name": "Bellowing Button", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 12 
         },
         { 
             "id": 2, 
             "name": "Mitten Smirks", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 8 
         },
         { 
             "id": 3, 
             "name": "Hoppy Groan", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 5
-        },
-        { 
-            "id": 4, 
-            "name": "Smokey Stork", 
-            "description": "",
-            "hourlyRate": 21 
         },
         { 
             "id": 5, 
             "name": "Bigger Bump", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 55
         },
         { 
             "id": 6, 
             "name": "Stretchy Zing", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 35
         },
         { 
             "id": 7, 
             "name": "Go Ging", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 87
-        },
-        { 
-            "id": 8, 
-            "name": "Hummer Bummer", 
-            "description": "",
-            "hourlyRate": 19
         },
         { 
             "id": 9, 
             "name": "Olive Oinker", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 29
         },
         { 
             "id": 10, 
             "name": "Scratchy Skuttle", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 11 
-        },
-        { 
-            "id": 11, 
-            "name": "Tinky Tanker", 
-            "description": "",
-            "hourlyRate": 47
         },
         { 
             "id": 12, 
             "name": "Vello Vinx", 
-            "description": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
             "hourlyRate": 38
         }
     ]
