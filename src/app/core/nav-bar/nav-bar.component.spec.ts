@@ -9,6 +9,16 @@ describe('NavbarComponent', () => {
     fixture = TestBed.createComponent(NavBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+  });
+
+  it('paragraph element should display Welcome Back, Alice!', () => {
+    let expected, actual;
+    component.userName = "Alice";
+    var p: HTMLElement = fixture.nativeElement.querySelector("p");
+    fixture.detectChanges();
+    expected = "Welcome Back, Alice!";
+    actual = p.textContent;
+    expect(actual).toEqual(expected);
   })
 
   it('getHelloMessage: should return Welcome Back, Friend!', () => {
