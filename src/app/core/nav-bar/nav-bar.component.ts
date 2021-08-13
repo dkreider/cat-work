@@ -15,8 +15,8 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getHelloMessage(): string {
-    return `Welcome Back, ${this.userName}!`;
+  getHelloMessage(username: string = 'Friend'): string {
+    return `Welcome Back, ${username}!`;
   }
 
 }
