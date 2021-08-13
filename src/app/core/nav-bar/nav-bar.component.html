@@ -10,7 +10,7 @@
         </ul>
         <ng-container *ngIf="loggedIn; else logInButton">
           <span class="navbar-text">
-            <p>{{ getHelloMessage() }}</p>
+            <p>{{ getHelloMessage(this.userName) }}</p>
           </span>
         </ng-container>
         <ng-template #logInButton>
