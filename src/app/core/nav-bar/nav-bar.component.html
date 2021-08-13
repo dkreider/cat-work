@@ -8,14 +8,14 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto">
         </ul>
-        <ng-container *ngIf="loggedIn; else logInButton">
+        <div [hidden]="!loggedIn">
           <span class="navbar-text">
-            <p>{{ getHelloMessage(this.userName) }}</p>
+            <h2>{{ getHelloMessage(this.userName) }}</h2>
           </span>
-        </ng-container>
-        <ng-template #logInButton>
+        </div>
+        <div [hidden]="loggedIn">
           <button type="button" class="btn btn-primary">Login</button>
-        </ng-template>
+        </div>
         
       </div>
     </div>
