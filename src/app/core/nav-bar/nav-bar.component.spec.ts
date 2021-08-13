@@ -1,25 +1,26 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { NavBarComponent } from "./nav-bar.component";
 
-import { NavBarComponent } from './nav-bar.component';
-
-describe('NavBarComponent', () => {
+describe('NavbarComponent', () => {
   let component: NavBarComponent;
   let fixture: ComponentFixture<NavBarComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ NavBarComponent ]
-    })
-    .compileComponents();
-  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(NavBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  });
+  })
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it('getHelloMessage: should return Welcome Back, Friend!', () => {
+    let actualResult, expectedResult;
+    actualResult = component.getHelloMessage();
+    expectedResult = "Welcome Back, Friend!";
+    expect(actualResult).toEqual(expectedResult);
+  });
+  it('getHelloMessage: should return Welcome Back, Bob!', () => {
+    let actualResult, expectedResult;
+    actualResult = component.getHelloMessage('Bob');
+    expectedResult = "Welcome Back, Bob!";
+    expect(actualResult).toEqual(expectedResult);
   });
 });
