@@ -7,12 +7,14 @@ export class AuthService {
 
   private username: string = "bob";
   private password: string = "123456";
-  private name: string = "Bob"
+  private name: string = "Bob";
+  private signedIn: boolean = false;
 
   constructor() { }
 
   login(username: string, password: string): boolean {
     if (username == this.username && password == this.password) {
+      this.signedIn = true;
       return true;
     }    
     return false;
@@ -20,5 +22,9 @@ export class AuthService {
 
   getName(): string {
     return this.name;
+  }
+
+  isSignedIn(): boolean {
+    return this.signedIn;
   }
 }
