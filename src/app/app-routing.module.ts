@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./cat/cat.module').then(c => c.CatModule)
   },
   {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then(c => c.LoginModule)
+  },
+  {
     path: '',
     pathMatch: 'full',
     redirectTo: 'cats'
