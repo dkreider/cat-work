@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { interval, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -12,12 +13,8 @@ export class AuthService {
 
   constructor() { }
 
-  login(username: string, password: string): boolean {
-    if (username == this.username && password == this.password) {
-      this.signedIn = true;
-      return true;
-    }    
-    return false;
+  login(username: string, password: string): Observable<any> {
+    return interval();
   }
 
   getName(): string {
