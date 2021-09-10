@@ -12,10 +12,11 @@
         <div class="card border-info" style="width: 95%;">
             <img src="assets/img/{{cat.id}}.jpg" class="card-img-top" width="200px" height="200px">
             <div class="card-body">
-              <h5 class="card-title">{{cat.name}}</h5>
-              <p>{{ cat.description | trim: 150 }}</p>
-              <p>{{ cat.hourlyRate | currency}}</p>
-              <a routerLink="/cat/{{cat.id}}" class="btn btn-primary">SNAG ME</a>              
+                <h5 class="card-title">{{cat.name}}</h5>
+                <p>{{ cat.description | trim: 150 }}</p>
+                <p>{{ cat.hourlyRate | currency}}</p>
+                <a routerLink="/cat/{{cat.id}}" class="btn btn-primary card-link">SNAG ME</a>
+                <i [stared]="cat.favorite"></i>
             </div>
         </div>
     </div>
