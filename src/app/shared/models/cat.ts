@@ -3,4 +3,5 @@ export interface Cat {
     name: string;
     description: string;
     hourlyRate: number;
+    favorite: boolean;
 }

@@ -4,55 +4,64 @@
             "id": 1, 
             "name": "Bellowing Button", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 12 
+            "hourlyRate": 12,
+            "favorite": true 
         },
         { 
             "id": 2, 
             "name": "Mitten Smirks", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 8 
+            "hourlyRate": 8 ,
+            "favorite": false
         },
         { 
             "id": 3, 
             "name": "Hoppy Groan", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 5
+            "hourlyRate": 5,
+            "favorite": false        
         },
         { 
             "id": 5, 
             "name": "Bigger Bump", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 55
+            "hourlyRate": 55,
+            "favorite": true
         },
         { 
             "id": 6, 
             "name": "Stretchy Zing", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 35
+            "hourlyRate": 35,
+            "favorite": false
         },
         { 
             "id": 7, 
             "name": "Go Ging", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 87
+            "hourlyRate": 87,
+            "favorite": false
         },
         { 
             "id": 9, 
             "name": "Olive Oinker", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 29
+            "hourlyRate": 29,
+            "favorite": true
         },
         { 
             "id": 10, 
             "name": "Scratchy Skuttle", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 11 
+            "hourlyRate": 11,
+            "favorite": false 
         },
         { 
             "id": 12, 
             "name": "Vello Vinx", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mauris at turpis tempor ullamcorper. Nulla molestie iaculis euismod. Duis quis elementum nisl, vel iaculis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ullamcorper augue, et ultricies risus.",
-            "hourlyRate": 38
+            "hourlyRate": 38,
+            "favorite": false
         }
     ]
   }
