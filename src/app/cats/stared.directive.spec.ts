@@ -21,7 +21,7 @@ describe('StaredDirective', () => {
 
   it('should be stared', () => {
     var element: HTMLElement = fixture.nativeElement.querySelector("i");
-    expect(element.className).toEqual('bi-star-fill');
+    expect(element.className).toEqual('bi-star');
   })
 
   it('should create an instance', () => {
