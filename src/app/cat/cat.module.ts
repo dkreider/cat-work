@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { CatRoutingModule } from './cat-routing.module';
 import { CatComponent } from './cat.component';
+import { SuccessComponent } from './success/success.component';
 
 
 @NgModule({
   declarations: [
-    CatComponent
+    CatComponent,
+    SuccessComponent
   ],
   imports: [
     CommonModule,
