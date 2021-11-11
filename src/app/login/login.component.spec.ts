@@ -19,7 +19,7 @@ describe('LoginComponent', () => {
           provide: AuthService, useValue: createSpyFromClass(AuthService)
         },
         {
-          provide: Router, useValue: routerSpy
+          provide: Router, useValue: createSpyFromClass(Router)
         }
       ]
     })
@@ -37,18 +37,6 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  it('should navigate to the home page on successful login', fakeAsync(() => {
-    component.loginForm.setValue({username: 'bob@bob.com', password: '12345678'});
-    fixture.detectChanges();
-
-    component.login();
-
-    tick(1000);
-
-    const navargs = routerSpy.navigateByUrl.calls.first().args[0];
-    expect(navargs).toEqual("/");
-  }));
 
   it('should login if form is valid', () => {
     let formData = { username: "email@email.com", password: "12345678" };

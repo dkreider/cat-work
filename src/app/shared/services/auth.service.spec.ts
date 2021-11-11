@@ -1,4 +1,5 @@
-import { TestBed } from "@angular/core/testing";
+import { expressionType } from "@angular/compiler/src/output/output_ast";
+import { fakeAsync, TestBed, tick } from "@angular/core/testing";
 import { AuthService } from "./auth.service"
 
 describe("AuthService", () => {
@@ -9,12 +10,12 @@ describe("AuthService", () => {
         service = TestBed.inject(AuthService);
     });
 
-    it("should reject an invalid login", () => {
-        let expected, actual;
+    it("should reject an invalid login", fakeAsync(() => {
 
-        expected = false;
-        actual = service.login("test", "test");
+        service.login("test", "test").subscribe((result) => {
+            expect(result).toBeDefined();
+        });
 
-        expect(actual).toEqual(expected);
-    });
+        tick(1000);
+    }));
 })
